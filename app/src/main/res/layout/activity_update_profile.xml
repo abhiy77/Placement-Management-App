@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UpdateProfileActivity">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".LoginActivity">
+        <TextView
+            android:id="@+id/placementManagement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55sp"
+            android:layout_marginTop="34sp"
+            android:fontFamily="sans-serif"
+            android:text="@string/placement_management"
+            android:textColor="@color/colorAccent"
+            android:textSize="24sp" />
+
+
+        <EditText
+            android:id="@+id/student_full_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="32dp"
+            android:ems="10"
+            android:hint="Full Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/student_father_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:ems="10"
+            android:layout_marginTop="25dp"
+            android:hint="Father Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/student_dob"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:ems="10"
+            android:layout_marginTop="25dp"
+            android:hint="Enter DOB(DD-MM-YYYY)"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/student_rollno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:ems="10"
+            android:layout_marginTop="25dp"
+            android:hint="Roll No"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/student_college_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="College Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/student_yearofpassingBTECH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Year of Passing(YYYY)"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/student_cgpa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="B.Tech CGPA"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/student_junior_college"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Intermediate / 12 College Name"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/student_junior_college_percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Intermediate/12 % (out of 100)"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/student_school"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="School Name"
+            android:inputType="text"
+            />
+
+        <EditText
+            android:id="@+id/student_school_percentage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="10th class % (out of 100)"
+            android:inputType="text"
+            />
+
+
+        <EditText
+            android:id="@+id/student_phone_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Phone Number"
+            android:inputType="phone"
+            />
+        <EditText
+            android:id="@+id/student_projects_link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:hint="Your projects profile link"
+            android:inputType="textWebEditText"
+            />
+
+
+
+        <Button
+            android:id="@+id/student_submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="150dp"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginRight="150dp"
+            android:text="Submit"
+            tools:layout_editor_absoluteY="667dp" />
+    </LinearLayout>
+</ScrollView>

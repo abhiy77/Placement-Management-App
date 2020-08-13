@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+    android:orientation="vertical">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:stretchColumns="1">
+        <TableRow android:padding="10dp" android:layout_marginTop="0dp">
+
+            <TextView
+                android:id="@+id/placementManagement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_span="2"
+                android:fontFamily="sans-serif"
+                android:gravity="center_horizontal"
+                android:text="My Profile"
+                android:textColor="@color/colorAccent"
+                android:textSize="24sp" />
+        </TableRow>
+        <TableRow android:layout_marginTop="15dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="Name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/profile_student_full_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Full Name"
+                android:inputType="textPersonName" />
+        </TableRow>
+        <TableRow android:layout_marginTop="15dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="Father Name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/profile_student_father_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Father Name"
+                android:inputType="textPersonName" />
+        </TableRow>
+        <TableRow android:layout_marginTop="15dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="D.O.B"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/profile_student_DOB"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="DD-MM-YYYY"
+                android:inputType="text" />
+        </TableRow>
+        <TableRow android:layout_marginTop="15dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="Roll No"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/profile_student_roll_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Roll No"
+                android:inputType="text" />
+        </TableRow>
+        <TableRow android:layout_marginTop="15dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="College Name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/profile_student_college_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="College Name"
+                android:inputType="text" />
+        </TableRow>
+        <TableRow android:layout_marginTop="15dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Year Of Passing"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/profile_student_year_of_passing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="YYYY"
+                android:inputType="text"
+                />
+        </TableRow>
+        <TableRow android:layout_marginTop="15dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Grade"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/profile_student_CGPA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Grade/Percentage"
+                android:inputType="text"
+                />
+        </TableRow>
+        <TableRow android:layout_marginTop="15dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Inter/12 Col.Name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/profile_student_junior_college"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="College Name"
+                android:inputType="text"
+                />
+        </TableRow>
+        <TableRow android:layout_marginTop="15dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Inter/12 %"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/profile_student_junior_college_percentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Grade / Percentage"
+                android:inputType="text"
+                />
+        </TableRow>
+        <TableRow android:layout_marginTop="15dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="School Name"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/profile_student_school"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="School Name"
+                android:inputType="text"
+                />
+        </TableRow>
+        <TableRow android:layout_marginTop="15dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="School % or grade"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/profile_student_school_percentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Percentage/Grade"
+                android:inputType="text"
+                />
+        </TableRow>
+        <TableRow android:layout_marginTop="15dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Email"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/profile_student_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="20"
+                android:ellipsize="none"
+                android:maxLines="2"
+                android:scrollHorizontally="false"
+                />
+        </TableRow>
+        <TableRow android:layout_marginTop="15dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Phone Number"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/profile_student_phone_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Phone Number"
+                android:inputType="phone"
+                />
+        </TableRow>
+        <TableRow android:layout_marginTop="15dp">
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Projects link"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="20dp"
+                android:textSize="20dp"/>
+            <TextView
+                android:id="@+id/profile_student_projects_link"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Projects link"
+                android:inputType="textWebEditText"
+                />
+        </TableRow>
+        <TableRow android:layout_marginTop="15dp">
+            <Button
+                android:id="@+id/student_submit_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_span="2"
+                android:text="Submit"
+                android:textSize="20dp"
+                tools:layout_editor_absoluteY="667dp" />
+        </TableRow>
+
+    </TableLayout>
+</ScrollView>

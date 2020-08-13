@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+xmlns:tools="http://schemas.android.com/tools"
+android:padding="10dp"
+android:background="#faf7f7">
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="10dp">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/company_logo"
+            android:layout_width="75dp"
+            android:layout_height="65dp"
+            android:src="@drawable/company_logo" />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/company_logo"
+            android:padding="10dp"
+            android:text="Company Name"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/company_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/title"
+            android:layout_toEndOf="@+id/company_logo"
+            android:orientation="vertical">
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:stretchColumns="1">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Type:"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:padding="5dp"
+                        />
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Job url:"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:id="@+id/url"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:padding="5dp"
+                        />
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Date:"
+                        android:textStyle="bold"
+                        android:textSize="15dp"/>
+                    <TextView
+                        android:id="@+id/created_at"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:padding="5dp"
+                        />
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Company:"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/company"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:padding="5dp"
+                        />
+                </TableRow>
+
+                <TableRow android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Company url:"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:id="@+id/company_url"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:padding="5dp"
+                        />
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="15dp">
+                    <TextView
+                        android:layout_height="match_parent"
+                        android:layout_width="match_parent"
+                        android:text="Location:"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        />
+                    <TextView
+                        android:id="@+id/location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:padding="5dp"
+                        />
+
+                </TableRow>
+
+                <TableRow android:layout_marginTop="15dp">
+                    <TextView android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Job Apply:"
+                        android:textSize="15dp"
+                        android:textStyle="bold"/>
+
+                    <TextView
+
+                        android:id="@+id/how_to_apply"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10sp"
+                        android:padding="5dp"
+                        />
+
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+</RelativeLayout>
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<com.synnapps.carouselview.CarouselView-->
+    <!--android:id="@+id/carouselView"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="200dp"-->
+    <!--app:fillColor="#FFFFFF"-->
+    <!--app:pageColor="#000000"-->
+    <!--app:radius="6dp"-->
+    <!--app:slideInterval="3000"-->
+    <!--app:strokeColor="#FF777777"-->
+    <!--app:strokeWidth="1dp" />-->
+
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/u"/>-->
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/i"/>-->
+    <!--<ListView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--app:layout_constraintBottom_toBottomOf="@+id/u"-->
+    <!--android:id="@+id/listview"/>-->
+
+    <!--</LinearLayout>-->
+

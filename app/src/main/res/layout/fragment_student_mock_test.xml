@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StudentMockTestFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MOCK TEST"
+        android:textSize="30sp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/text_view_highscore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/button_start_mock_test"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:text="High Score: 0"
+        android:textSize="20sp" />
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="START TEST"
+       android:layout_centerInParent="true"
+       android:id="@+id/button_start_mock_test"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INSTRUCTIONS : "
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/button_start_mock_test"
+        android:layout_marginLeft="30dp"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1)There will be a total of 10 questions and a timer is also provided"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/button_start_mock_test"
+        android:layout_marginLeft="30dp"
+        android:textSize="15sp"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2)Each question should be answered in 30 sec"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/button_start_mock_test"
+        android:layout_marginLeft="30dp"
+        android:textSize="15sp"
+        android:layout_marginTop="90dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3)For each question 4 options are provided and only one option is correct"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/button_start_mock_test"
+        android:layout_marginLeft="30dp"
+        android:textSize="15sp"
+        android:layout_marginTop="110dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4)You cannot go back after answering a particular question"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/button_start_mock_test"
+        android:layout_marginLeft="30dp"
+        android:textSize="15sp"
+        android:layout_marginTop="150dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time Duration : 5 min"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_below="@+id/button_start_mock_test"
+        android:layout_marginLeft="30dp"
+        android:textSize="15sp"
+        android:layout_marginTop="195dp"/>
+
+
+</RelativeLayout>

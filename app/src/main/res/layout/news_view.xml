@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:background="#faf7f7">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="18dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="5dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/company_logo"
+                android:layout_width="75dp"
+                android:layout_height="65dp"
+                android:src="@drawable/ic_logout" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/company_logo"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="-8dp"
+                android:text="Type of Job:" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/company_logo"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="-31dp"
+                android:text="Job URL :" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/company_logo"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="-62dp"
+                android:text="Post Created :" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/company_logo"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="-92dp"
+                android:text="Company:" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/company_logo"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="-118dp"
+                android:text="Website:" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/company_logo"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="-147dp"
+                android:text="Location:" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/company_logo"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="-178dp"
+                android:text="Job Apply:" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/company_logo"
+                android:padding="10dp"
+                android:text="Company Name"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/company_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:layout_toEndOf="@+id/company_logo"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:padding="5dp"
+                    android:text="type" />
+
+                <TextView
+                    android:id="@+id/url"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:padding="5dp"
+                    android:text="url" />
+
+                <!--<TextView-->
+                <!--android:id="@+id/id"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft="10sp"-->
+                <!--android:padding="5dp"-->
+                <!--android:text="id" />-->
+
+                <TextView
+                    android:id="@+id/created_at"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:padding="5dp"
+                    android:text="Date" />
+
+                <TextView
+                    android:id="@+id/company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:padding="5dp"
+                    android:text="company" />
+
+                <TextView
+                    android:id="@+id/company_url"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:padding="5dp"
+                    android:text="Company url" />
+
+                <TextView
+                    android:id="@+id/location"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:padding="5dp"
+                    android:text="location" />
+
+                <!--<TextView-->
+                <!--android:id="@+id/description"-->
+                <!--android:text="Description"-->
+                <!--android:padding="5dp"-->
+                <!--android:inputType="textMultiLine"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginLeft = "10sp"/>-->
+
+                <TextView
+                    android:id="@+id/how_to_apply"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10sp"
+                    android:padding="5dp"
+                    android:text="Apply" />
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+</RelativeLayout>

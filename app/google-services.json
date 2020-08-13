@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "717460963141",
+    "firebase_url": "https://placementmanagement-4286f.firebaseio.com",
+    "project_id": "placementmanagement-4286f",
+    "storage_bucket": "placementmanagement-4286f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717460963141:android:4063ce74cf3957d79dc82c",
+        "android_client_info": {
+          "package_name": "com.hiring.placementmanagement"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717460963141-e0abesgi74htaemrjapa3s0ufttuv689.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hiring.placementmanagement",
+            "certificate_hash": "2d7c1c38ae1f03e7a3242c863dfa18fde5111a46"
+          }
+        },
+        {
+          "client_id": "717460963141-n2g4letijpc015ie9i2f3okpn3dcedrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANsMDlMqko9ehIkZTjy-ICTOJgqBl6nvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717460963141-n2g4letijpc015ie9i2f3okpn3dcedrj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
